@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import ProductCard from "@/components/ProductCard";
-// import { productData } from "@/data/productData";
+import { fetchProducts } from "@/utils/api";
 import { useEffect, useMemo, useState } from "react";
 import clsx from "clsx";
 
@@ -12,19 +12,17 @@ export default function Category() {
   const [sortBy, setSortBy] = useState("default");
   const [isDesc, setIsDesc] = useState({});
 
-  const fetchProducts = async () => {
+  const loadProducts = async () => {
     try {
-      const res = await fetch("http://localhost:4000/api/products");
-      if (!res.ok) throw new Error(`Server Response Error: ${res.status}`);
-      const data = await res.json();
+      const data = await fetchProducts();
       setProducts(data);
     } catch (e) {
-      console.error(`Fetch Error: ${e.message}`);
+      console.error(`Load Products Error: ${e.message}`);
     }
   };
 
   useEffect(() => {
-    fetchProducts();
+    loadProducts();
   }, []);
 
   useEffect(() => {

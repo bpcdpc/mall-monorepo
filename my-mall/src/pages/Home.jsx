@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ProductCard from "@/components/ProductCard";
-// import { productData } from "@/data/productData";
+import { fetchProducts } from "@/utils/api";
 import clsx from "clsx";
 
 const CATEGORIES = ["women", "men", "kids"];
@@ -47,19 +47,17 @@ export default function Home() {
   const [newCategory, setNewCategory] = useState(CATEGORIES[0]);
   const [products, setProducts] = useState([]);
 
-  const fetchProducts = async () => {
+  const loadProducts = async () => {
     try {
-      const res = await fetch("http://localhost:4000/api/products");
-      if (!res.ok) throw new Error(`Server Response Error: ${res.status}`);
-      const data = await res.json();
+      const data = await fetchProducts();
       setProducts(data);
     } catch (e) {
-      console.error(`Fetch Error: ${e.message}`);
+      console.error(`Load Products Error: ${e.message}`);
     }
   };
 
   useEffect(() => {
-    fetchProducts();
+    loadProducts();
   }, []);
 
   const getProducts = (feature, category) =>

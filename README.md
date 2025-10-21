@@ -35,3 +35,7 @@ mall-monorepo/
 - [ ] 상품 검색 기능
 - [ ] 무한 스크롤 또는 페이지네이션
 - [ ] 위시리스트 기능
+
+## 변경기록
+
+- move API calls to shared utility

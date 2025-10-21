@@ -6,8 +6,7 @@ import { useState } from "react";
 import Button from "@/components/Button";
 
 export default function Cart() {
-  const { cart, addToCart, updateQuantity, removeFromCart, clearCart } =
-    useCart();
+  const { cart, updateQuantity, removeFromCart } = useCart();
 
   const [selectedItems, setSelectedItems] = useState(
     cart.map((item) => item.cartItemId)

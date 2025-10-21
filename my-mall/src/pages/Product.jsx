@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-// import { productData } from "@/data/productData";
 import { useCart } from "@/contexts/CartContext";
+import { fetchProduct } from "@/utils/api";
 
 import clsx from "clsx";
 import ProductPrice from "@/components/ProductPrice";
@@ -105,19 +105,17 @@ export default function Product() {
   const [quantity, setQuantity] = useState(1);
   const [isAdded, setIsAdded] = useState(false);
 
-  const fetchProduct = async () => {
+  const loadProduct = async () => {
     try {
-      const res = await fetch(`http://localhost:4000/api/products/${id}`);
-      if (!res.ok) throw new Error(`Server Response Error: ${res.status}`);
-      const data = await res.json();
+      const data = await fetchProduct(id);
       setProduct(data);
     } catch (e) {
-      console.error(e);
+      console.error(`Load Product Error: ${e.message}`);
     }
   };
 
   useEffect(() => {
-    fetchProduct();
+    loadProduct();
   }, [id]);
 
   useEffect(() => {
@@ -175,9 +173,9 @@ export default function Product() {
   const safeDisabledSizes = Array.isArray(disabledSizes) ? disabledSizes : [];
   const safeBadges = Array.isArray(badges) ? badges : [];
 
-  const handleQuantity = (isPlus) => {
-    setQuantity((q) => (isPlus ? Math.min(q + 1, 10) : Math.max(1, q - 1)));
-  };
+  // const handleQuantity = (isPlus) => {
+  //   setQuantity((q) => (isPlus ? Math.min(q + 1, 10) : Math.max(1, q - 1)));
+  // };
 
   const handleCart = () => {
     addToCart({
