@@ -150,24 +150,20 @@ export default function Product() {
     saleRate,
     thumbs,
     titleEn,
+    colorVariantImages,
+    colorVariantIds,
+    colorVariantCodes,
   } = product;
 
   const images = [...(Array.isArray(thumbs) ? thumbs : [])].filter(Boolean);
 
-  const colors = [
-    {
-      id: 1,
-      color: "BLK",
-      image:
-        "https://cdn.skecherskorea.co.kr/pro_img/SL0WPCFY051_1.jpg?v=250904",
-    },
-    {
-      id: 2,
-      color: "NAT",
-      image:
-        "https://cdn.skecherskorea.co.kr/pro_img/SL0WPCFY052_1.jpg?v=250904",
-    },
-  ];
+  const colors = colorVariantImages
+    .map((image, i) => ({
+      color: colorVariantCodes[i] ?? null,
+      image,
+      id: colorVariantIds[i] ?? null,
+    }))
+    .filter((c) => c.id !== null);
 
   const safeSizes = Array.isArray(sizes) ? sizes : [];
   const safeDisabledSizes = Array.isArray(disabledSizes) ? disabledSizes : [];
@@ -221,16 +217,18 @@ export default function Product() {
           </div>
         </div>
         <div className="flex-grow space-y-3">
-          <div className="font-extrabold text-4xl">{title}</div>
-          <div className="font-bold text-gray-500">{titleEn}</div>
-          <ProductBadges
-            badges={safeBadges}
-            containerClass={"pb-4 text-xl flex gap-3"}
-          />
+          <div className="space-x-4 align-top">
+            <span className="font-extrabold text-4xl">{title}</span>
+            <span className="font-bold text-gray-500">{titleEn}</span>
+          </div>
           <ProductPrice
             saleRate={saleRate}
             price={price}
             priceBefore={priceBefore}
+          />
+          <ProductBadges
+            badges={safeBadges}
+            containerClass={"pb-4 text-xl flex gap-3"}
           />
           <div className="font-bold text-gray-700">
             {productId} {colors.find((c) => c.id === color)?.color}

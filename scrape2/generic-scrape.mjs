@@ -83,6 +83,29 @@ const config = {
       defaultValue: [],
     },
     {
+      key: "colorVariantImages",
+      selector: ".otherC .otherC_wrap img",
+      mode: "attr",
+      attr: "src",
+      all: true,
+      absolute: true,
+      arrayClean: true,
+    },
+    {
+      key: "colorVariantIds",
+      selector: "",
+      mode: "const",
+      value: "",
+      defaultValue: [],
+    },
+    {
+      key: "colorVariantCodes",
+      selector: "",
+      mode: "const",
+      value: "",
+      defaultValue: [],
+    },
+    {
       key: "reviewRating",
       selector: ".tt_star.st1 .star i.xi",
       mode: "attr",
@@ -133,7 +156,6 @@ const config = {
     },
   ],
   dropEmpty: true,
-  postProcess,
   detail: {
     urlFromField: "href",
     urlSelector: "> a",
@@ -155,90 +177,179 @@ const config = {
         mode: "text",
         defaultValue: "",
       },
+      {
+        key: "colorCode",
+        selector: ".opt_wrap .opt_section.tt + .opt_section .tit",
+        mode: "text",
+        defaultValue: "",
+      },
     ],
     // 상세 페이지 후처리 훅(선택)
     postProcess: (obj, ctx) => obj,
   },
 };
 
-function postProcess(item) {
-  // priceArr = ["139,000", "109,000", "22%"] 형태일 때
-  if (Array.isArray(item.priceArr) && item.priceArr.length) {
-    const [beforeRaw, nowRaw, rateRaw] = item.priceArr;
+// colorCode를 저장할 맵을 클로저로 관리
+const createPostProcessor = () => {
+  // 1) 전역 색상코드 맵: productId -> colorCode
+  const colorCodeMap = new Map();
+  // 2) 후처리용 아이템 보관 (2-pass 용)
+  const bucket = [];
 
-    // 1) 정가
-    const before = beforeRaw
-      ? parseInt(String(beforeRaw).replace(/[^\d]/g, ""), 10)
-      : null;
-    if (Number.isFinite(before)) {
-      item.priceBefore = before; // 예: 139000
-    }
+  return {
+    // 1-pass: 각 아이템의 기초 정보만 수집 (colorVariantIds, productId, colorCode)
+    postProcess(item) {
+      // priceArr = ["139,000", "109,000", "22%"] 형태일 때
+      if (Array.isArray(item.priceArr) && item.priceArr.length) {
+        const [beforeRaw, nowRaw, rateRaw] = item.priceArr;
 
-    // 2) 현재가 (price 덮어쓰기)
-    const now = nowRaw
-      ? parseInt(String(nowRaw).replace(/[^\d]/g, ""), 10)
-      : null;
-    if (Number.isFinite(now)) {
-      item.price = now; // 예: 109000
-      // priceText도 없으면 만들어둠(선택)
-      if (!item.priceText) item.priceText = nowRaw;
-    }
+        // 1) 정가
+        const before = beforeRaw
+          ? parseInt(String(beforeRaw).replace(/[^\d]/g, ""), 10)
+          : null;
+        if (Number.isFinite(before)) {
+          item.priceBefore = before; // 예: 139000
+        }
 
-    // 3) 할인율 %
-    const rate = rateRaw
-      ? parseInt(String(rateRaw).replace(/[^\d]/g, ""), 10)
-      : null;
-    if (Number.isFinite(rate)) {
-      item.saleRate = rate; // 예: 22
-    }
-  }
+        // 2) 현재가 (price 덮어쓰기)
+        const now = nowRaw
+          ? parseInt(String(nowRaw).replace(/[^\d]/g, ""), 10)
+          : null;
+        if (Number.isFinite(now)) {
+          item.price = now; // 예: 109000
+          // priceText도 없으면 만들어둠(선택)
+          if (!item.priceText) item.priceText = nowRaw;
+        }
 
-  // 배지에서 isNew/isBest 추출
-  if (Array.isArray(item.badges) && item.badges.length > 0) {
-    const upperBadges = item.badges.map((badge) => String(badge).toUpperCase());
-    item.isNew = upperBadges.some((badge) => /\bNEW\b/.test(badge));
-    item.isBest = upperBadges.some((badge) => /\bBEST\b/.test(badge));
-  }
-
-  // 리뷰 별점 계산
-  if (Array.isArray(item.reviewRating) && item.reviewRating.length > 0) {
-    // 클래스 정보에서 별점 계산: on=1점, half=0.5점
-    let totalRating = 0;
-    item.reviewRating.forEach((className) => {
-      if (className && className.includes("half")) {
-        totalRating += 0.5; // half 클래스
-      } else if (className && className.includes("on")) {
-        totalRating += 1; // on 클래스
+        // 3) 할인율 %
+        const rate = rateRaw
+          ? parseInt(String(rateRaw).replace(/[^\d]/g, ""), 10)
+          : null;
+        if (Number.isFinite(rate)) {
+          item.saleRate = rate; // 예: 22
+        }
       }
-    });
-    item.reviewRating = Math.round(totalRating * 10) / 10; // 소수점 1자리까지
-  }
 
-  // 품절 여부 판별
-  if (Array.isArray(item.sizes) && Array.isArray(item.disabledSizes)) {
-    // 모든 사이즈가 비활성화된 경우에만 품절
-    const allSizesDisabled = item.sizes.every((size) =>
-      item.disabledSizes.includes(size)
-    );
-    item.isSoldOut = allSizesDisabled;
-  }
+      // 배지에서 isNew/isBest 추출
+      if (Array.isArray(item.badges) && item.badges.length > 0) {
+        const upperBadges = item.badges.map((badge) =>
+          String(badge).toUpperCase()
+        );
+        item.isNew = upperBadges.some((badge) => /\bNEW\b/.test(badge));
+        item.isBest = upperBadges.some((badge) => /\bBEST\b/.test(badge));
+      }
 
-  // keyImage와 제품 ID 처리
-  if (item.keyImage && item.keyImage.trim() !== "") {
-    // keyImage가 유효한 경우 ID 추출
-    const urlParts = item.keyImage.split("/");
-    const filename = urlParts[urlParts.length - 1]; // SL0WPCFY052_1.jpg
+      // 리뷰 별점 계산
+      if (Array.isArray(item.reviewRating) && item.reviewRating.length > 0) {
+        // 클래스 정보에서 별점 계산: on=1점, half=0.5점
+        let totalRating = 0;
+        item.reviewRating.forEach((className) => {
+          if (className && className.includes("half")) {
+            totalRating += 0.5; // half 클래스
+          } else if (className && className.includes("on")) {
+            totalRating += 1; // on 클래스
+          }
+        });
+        item.reviewRating = Math.round(totalRating * 10) / 10; // 소수점 1자리까지
+      }
 
-    // _숫자.확장자 부분 제거: SL0WPCFY052_1.jpg -> SL0WPCFY052
-    const productId = filename.replace(/_\d+\.[^.]+$/, "");
+      // 품절 여부 판별
+      if (Array.isArray(item.sizes) && Array.isArray(item.disabledSizes)) {
+        // 모든 사이즈가 비활성화된 경우에만 품절
+        const allSizesDisabled = item.sizes.every((size) =>
+          item.disabledSizes.includes(size)
+        );
+        item.isSoldOut = allSizesDisabled;
+      }
 
-    if (productId) {
-      item.productId = productId;
-    }
-  }
+      // keyImage와 제품 ID 처리
+      if (item.keyImage && item.keyImage.trim() !== "") {
+        // keyImage가 유효한 경우 ID 추출
+        const urlParts = item.keyImage.split("/");
+        const filename = urlParts[urlParts.length - 1]; // SL0WPCFY052_1.jpg
 
-  return item;
-}
+        // _숫자.확장자 부분 제거: SL0WPCFY052_1.jpg -> SL0WPCFY052
+        const productId = filename.replace(/_\d+\.[^.]+$/, "");
+
+        if (productId) {
+          item.productId = productId;
+        }
+      }
+
+      // colorVariantImages에서 colorVariantIds 추출
+      if (item.colorVariantImages) {
+        // 1단계: 이미지 URL 배열 정리 (공백 제거, 빈 문자열 필터링)
+        const colorImages = item.colorVariantImages
+          .map((c) => c.trim())
+          .filter((c) => c !== "");
+
+        // 2단계: 색상 ID를 저장할 배열 초기화
+        const colorIds = [];
+
+        // 3단계: 각 이미지 URL에서 색상 ID 추출
+        for (const c of colorImages) {
+          // URL에서 파일명 추출 (예: /path/to/SL0WPCFY052_2.jpg -> SL0WPCFY052_2.jpg)
+          const urlParts = c.split("/");
+          const filename = urlParts[urlParts.length - 1];
+
+          // 파일명에서 색상 ID 추출 (예: SL0WPCFY052_2.jpg -> SL0WPCFY052)
+          const colorId = filename.replace(/_\d+\.[^.]+$/, "");
+
+          // 4단계: 유효한 ID이고 중복이 아닌 경우에만 추가
+          if (colorId && !colorIds.includes(colorId)) {
+            colorIds.push(colorId);
+          }
+        }
+
+        // 5단계: 추출된 색상 ID 배열을 아이템에 할당
+        item.colorVariantIds = colorIds;
+      }
+
+      // 1단계: 현재 아이템의 colorCode를 맵에 기록 (2-pass에서 사용)
+      if (item.colorCode && item.productId) {
+        const clean = String(item.colorCode).trim();
+        if (clean !== "") colorCodeMap.set(item.productId, clean);
+      }
+
+      // 2단계:  colorVariantCodes는 지금은 세팅하지 않고, 2-pass에서 일괄 보완
+      if (!Array.isArray(item.colorVariantCodes)) item.colorVariantCodes = [];
+
+      // 3단계 : 2-pass용 버킷에 보관
+      bucket.push(item);
+
+      return item;
+    },
+
+    // 2-pass: 모든 아이템을 본 뒤, variantId -> colorCode 매핑으로 colorVariantCodes 채우기
+    finalize(items) {
+      const list = items ?? bucket;
+      for (const it of list) {
+        const ids = Array.isArray(it.colorVariantIds) ? it.colorVariantIds : [];
+        const codes = [];
+        for (const id of ids) {
+          const code = colorCodeMap.get(id);
+          if (code && !codes.includes(code)) codes.push(code);
+        }
+        // 자기 자신의 colorCode가 목록에 없고, 실제로 같은 시리즈면 포함하고 싶다면 아래 주석 해제
+        if (it.colorCode && !codes.includes(it.colorCode))
+          codes.push(it.colorCode);
+
+        it.colorVariantCodes = codes;
+      }
+    },
+    cleanup() {
+      colorCodeMap.clear();
+      bucket.length = 0;
+    },
+  };
+};
+
+// postProcess 함수 생성
+const postProcessor = createPostProcessor();
+const postProcess = postProcessor.postProcess;
+
+// config 객체에 postProcess 추가
+config.postProcess = postProcess;
 
 function absUrl(base, maybe) {
   if (!maybe) return "";
@@ -559,6 +670,9 @@ async function saveResult(items, { url, outPrefix = "scrape" }) {
       allResults.push(...items);
     }
 
+    // 전체 결과를 하나의 파일로 저장하기 전에 2-pass로 colorVariantCodes 완성
+    postProcessor.finalize(allResults);
+
     // 전체 결과를 하나의 파일로 저장
     const allSaved = await saveResult(allResults, {
       url: "multiple_categories",
@@ -569,6 +683,10 @@ async function saveResult(items, { url, outPrefix = "scrape" }) {
     console.log(`\n=== 전체 결과 ===`);
     console.log(`총 ${allResults.length}개 상품 스크래핑 완료`);
     console.log(`통합 파일이 생성되었습니다.`);
+
+    // 메모리 정리
+    postProcessor.cleanup();
+    console.log(`메모리 정리 완료`);
   } catch (err) {
     console.error("ERROR:", err?.stack || err?.message || String(err));
     process.exit(1);

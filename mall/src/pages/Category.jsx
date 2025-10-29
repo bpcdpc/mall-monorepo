@@ -31,19 +31,23 @@ export default function Category() {
     setIsDesc({});
   }, [category]);
 
-  const categorizedProducts = products.filter((p) =>
-    category === "new"
-      ? p.isNew
-      : category === "best"
-      ? p.isBest
-      : category === p.category
-  );
+  const categorizedProducts = useMemo(() => {
+    if (!products || products.length === 0) return [];
+    if (category === "new") return products.filter((p) => p.isNew);
+    if (category === "best") return products.filter((p) => p.isBest);
+    return products.filter((p) => p.category === category);
+  }, [products, category]);
 
-  const sizes = [
-    ...new Set(
-      categorizedProducts.reduce((allSizes, p) => [...allSizes, ...p.sizes], [])
-    ),
-  ].sort();
+  const sizes = useMemo(() => {
+    const all = (categorizedProducts || [])
+      .flatMap((p) => p.sizes || [])
+      .map(Number);
+    return Array.from(new Set(all)).sort((a, b) => a - b);
+  }, [categorizedProducts]);
+
+  // const filteredProducts = useMemo(() => {
+
+  // }, [categorizedProducts]);
 
   const filteredProducts =
     selectedSizes.length > 0
@@ -126,6 +130,7 @@ export default function Category() {
             <div className="grid grid-cols-4 gap-2">
               {sizes.map((s) => (
                 <button
+                  key={s}
                   onClick={() => toggleSelectedSizes(s)}
                   className={clsx(
                     "cursor-pointer border rounded text-center py-2 font-semibold text-xs",

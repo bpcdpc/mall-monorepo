@@ -12,6 +12,7 @@ const parseJSON = (v) => {
       return v;
     }
   }
+  //if (Array.isArray(v)) return v; // 이미 배열인 경우
   return v; // mysql2가 JSON을 이미 객체로 줄 수도 있음
 };
 
@@ -33,6 +34,10 @@ const normalizeProduct = (row) => ({
   isBest: !!row.isBest,
   thumbs: parseJSON(row.thumbs),
   titleEn: row.titleEn,
+  colorVariantImages: parseJSON(row.colorVariantImages),
+  colorVariantIds: parseJSON(row.colorVariantIds),
+  colorVariantCodes: parseJSON(row.colorVariantCodes),
+  colorCode: row.colorCode,
 });
 
 // GET /api/products

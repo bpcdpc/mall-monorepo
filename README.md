@@ -1,14 +1,15 @@
-# Mall Monorepo - 첫 커밋
+# My Mall - 구조 수정
 
 온라인 쇼핑몰 프로젝트의 모노레포 구조입니다.
 
 ## 📁 프로젝트 구조
 
 ```
-mall-monorepo/
-├── my-mall/          # React 프론트엔드 (Vite + React 19)
-├── server/           # Node.js 백엔드 (Express + MySQL)
-└── scrape2/          # 웹 스크래핑 도구
+my-mall/
+├── erp/            # React 프론트엔드 Back Office (Vite + React 19)
+├── mall/           # React 프론트엔드 (Vite + React 19)
+├── server/         # Node.js 백엔드 (Express + MySQL)
+└── scrape2/        # 웹 스크래핑 도구
 ```
 
 ## ✅ 작업 완료된 부분
@@ -39,3 +40,4 @@ mall-monorepo/
 ## 변경기록
 
 - move API calls to shared utility
+- change folder name and structure

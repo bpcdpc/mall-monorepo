@@ -72,6 +72,14 @@ function normalizeProduct(p) {
     disabledSizes: Array.isArray(p.disabledSizes) ? p.disabledSizes : null, // 옵션
     thumbs: Array.isArray(p.thumbs) ? p.thumbs : [],
     titleEn: p.titleEn ? String(p.titleEn) : "",
+    colorVariantImages: Array.isArray(p.colorVariantImages)
+      ? p.colorVariantImages
+      : [],
+    colorVariantIds: Array.isArray(p.colorVariantIds) ? p.colorVariantIds : [],
+    colorVariantCodes: Array.isArray(p.colorVariantCodes)
+      ? p.colorVariantCodes
+      : [],
+    colorCode: p.colorCode ? String(p.colorCode) : "",
   };
 }
 
@@ -123,8 +131,8 @@ async function main() {
 
     const sql = `
       INSERT INTO mall_products
-      (productId, keyImage, title, price, badges, sizes, disabledSizes, reviewRating, reviewCount, isSoldOut, priceBefore, saleRate, isNew, isBest, category, thumbs, titleEn)
-      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      (productId, keyImage, title, price, badges, sizes, disabledSizes, reviewRating, reviewCount, isSoldOut, priceBefore, saleRate, isNew, isBest, category, thumbs, titleEn, colorVariantImages, colorVariantIds, colorVariantCodes, colorCode)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `;
 
     for (let i = 0; i < products.length; i++) {
@@ -148,6 +156,10 @@ async function main() {
           p.category,
           JSON.stringify(p.thumbs),
           p.titleEn,
+          JSON.stringify(p.colorVariantImages),
+          JSON.stringify(p.colorVariantIds),
+          JSON.stringify(p.colorVariantCodes),
+          p.colorCode,
         ]);
       } catch (e) {
         console.error(

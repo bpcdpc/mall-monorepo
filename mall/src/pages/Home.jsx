@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import ProductCard from "@/components/ProductCard";
 import { fetchProducts } from "@/utils/api";
 import clsx from "clsx";
@@ -60,11 +60,21 @@ export default function Home() {
     loadProducts();
   }, []);
 
-  const getProducts = (feature, category) =>
-    products.filter((p) => p[feature] && p.category === category).slice(0, 10);
+  const bestProducts = useMemo(
+    () =>
+      (products || [])
+        .filter((p) => p.isBest && p.category === bestCategory)
+        .slice(0, 10),
+    [products, bestCategory]
+  );
 
-  const bestProducts = getProducts("isBest", bestCategory);
-  const newProducts = getProducts("isNew", newCategory);
+  const newProducts = useMemo(
+    () =>
+      (products || [])
+        .filter((p) => p.isNew && p.category === newCategory)
+        .slice(0, 10),
+    [products, newCategory]
+  );
 
   return (
     <div>

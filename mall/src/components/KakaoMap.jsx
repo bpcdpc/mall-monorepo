@@ -65,7 +65,9 @@ const loadKakao = (() => {
       const cleanupOnFail = (err, el) => {
         try {
           el && el.remove && el.remove();
-        } catch {}
+        } catch (e) {
+          console.error(`Error while cleanup : ${e.message}`);
+        }
         p = undefined; // 다음 호출에서 재시도 가능
         reject(err instanceof Error ? err : new Error(String(err)));
       };
@@ -125,7 +127,11 @@ const loadKakao = (() => {
             console.warn("[KAKAO] Removing different script tag:", prev.src);
           try {
             prev.remove();
-          } catch {}
+          } catch (e) {
+            console.error(
+              `Failed to remove pre-existing script : ${e.message}`
+            );
+          }
         }
         const s = document.createElement("script");
         s.id = id;

@@ -24,6 +24,15 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW051_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0WSCFW051"
+      ],
+      "colorVariantCodes": [
+        "BBK"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -43,7 +52,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW051_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW051_9.jpg?v=250904"
       ],
-      "titleEn": "GLACIAL ULTRA BOOT"
+      "titleEn": "GLACIAL ULTRA BOOT",
+      "colorCode": "BBK"
     },
     {
       "productId": "SL0WSCFW022",
@@ -67,7 +77,22 @@
         255,
         260
       ],
-      "disabledSizes": [],
+      "disabledSizes": [
+        225,
+        260
+      ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW021_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW022_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0WSCFW021",
+        "SL0WSCFW022"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "NAT"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -87,7 +112,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW022_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW022_9.jpg?v=250904"
       ],
-      "titleEn": "ARCH FIT DISCOVER BOOT"
+      "titleEn": "ARCH FIT DISCOVER BOOT",
+      "colorCode": "NAT"
     },
     {
       "productId": "SL0WSCFW021",
@@ -112,6 +138,18 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW021_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW022_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0WSCFW021",
+        "SL0WSCFW022"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "NAT"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -131,7 +169,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW021_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW021_9.jpg?v=250904"
       ],
-      "titleEn": "ARCH FIT DISCOVER BOOT"
+      "titleEn": "ARCH FIT DISCOVER BOOT",
+      "colorCode": "BBK"
     },
     {
       "productId": "SL0WSCFW013",
@@ -154,6 +193,18 @@
         250
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW012_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW013_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0WSCFW012",
+        "SL0WSCFW013"
+      ],
+      "colorVariantCodes": [
+        "GRY",
+        "YEL"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -173,7 +224,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW013_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW013_9.jpg?v=250904"
       ],
-      "titleEn": "DLUX JOURNEY (SLIP INS)"
+      "titleEn": "DLUX JOURNEY (SLIP INS)",
+      "colorCode": "YEL"
     },
     {
       "productId": "SL0WSCFW012",
@@ -198,6 +250,18 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW012_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW013_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0WSCFW012",
+        "SL0WSCFW013"
+      ],
+      "colorVariantCodes": [
+        "GRY",
+        "YEL"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -217,7 +281,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW012_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW012_9.jpg?v=250904"
       ],
-      "titleEn": "DLUX JOURNEY (SLIP INS)"
+      "titleEn": "DLUX JOURNEY (SLIP INS)",
+      "colorCode": "GRY"
     },
     {
       "productId": "SL0WSCFW011",
@@ -242,6 +307,15 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW011_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0WSCFW011"
+      ],
+      "colorVariantCodes": [
+        "BBK"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 24,
       "isSoldOut": false,
@@ -261,7 +335,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW011_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW011_9.jpg?v=250904"
       ],
-      "titleEn": "DLUX JOURNEY (SLIP INS)"
+      "titleEn": "DLUX JOURNEY (SLIP INS)",
+      "colorCode": "BBK"
     },
     {
       "productId": "SP0WSCFW042",
@@ -286,6 +361,18 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW041_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW042_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0WSCFW041",
+        "SP0WSCFW042"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "BURG"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -305,7 +392,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW042_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW042_9.jpg?v=250904"
       ],
-      "titleEn": "GW G-STEP 2.0 BOOT (SLIP INS)"
+      "titleEn": "GW G-STEP 2.0 BOOT (SLIP INS)",
+      "colorCode": "BURG"
     },
     {
       "productId": "SP0WSCFW041",
@@ -330,6 +418,18 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW041_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW042_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0WSCFW041",
+        "SP0WSCFW042"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "BURG"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -349,7 +449,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW041_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW041_9.jpg?v=250904"
       ],
-      "titleEn": "GW G-STEP 2.0 BOOT (SLIP INS)"
+      "titleEn": "GW G-STEP 2.0 BOOT (SLIP INS)",
+      "colorCode": "BBK"
     },
     {
       "productId": "SP0WSCFW032",
@@ -374,6 +475,22 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW031_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW032_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCEW041_list.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCEW042_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0WSCFW031",
+        "SP0WSCFW032",
+        "SP0WSCEW041_list.jpg?v=250904",
+        "SP0WSCEW042"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "BRN"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 101,
       "isSoldOut": false,
@@ -393,7 +510,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW032_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW032_9.jpg?v=250904"
       ],
-      "titleEn": "GW ARCH FIT 2.0 BOOT(SLIP INS)"
+      "titleEn": "GW ARCH FIT 2.0 BOOT(SLIP INS)",
+      "colorCode": "BRN"
     },
     {
       "productId": "SP0WSCFW031",
@@ -418,6 +536,22 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW031_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW032_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCEW041_list.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCEW042_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0WSCFW031",
+        "SP0WSCFW032",
+        "SP0WSCEW041_list.jpg?v=250904",
+        "SP0WSCEW042"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "BRN"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 101,
       "isSoldOut": false,
@@ -437,7 +571,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW031_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW031_9.jpg?v=250904"
       ],
-      "titleEn": "GW ARCH FIT 2.0 BOOT(SLIP INS)"
+      "titleEn": "GW ARCH FIT 2.0 BOOT(SLIP INS)",
+      "colorCode": "BBK"
     },
     {
       "productId": "SL0WSCFW093",
@@ -463,8 +598,23 @@
       "disabledSizes": [
         250
       ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW091_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW092_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW093_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0WSCFW091",
+        "SL0WSCFW092",
+        "SL0WSCFW093"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "CHOC",
+        "MVE"
+      ],
       "reviewRating": 4.5,
-      "reviewCount": 4,
+      "reviewCount": 6,
       "isSoldOut": false,
       "priceBefore": 99000,
       "saleRate": 0,
@@ -482,7 +632,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW093_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW093_9.jpg?v=250904"
       ],
-      "titleEn": "KEEP COZY"
+      "titleEn": "KEEP COZY",
+      "colorCode": "MVE"
     },
     {
       "productId": "SC0WFCFW082",
@@ -507,6 +658,18 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SC0WFCFW081_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SC0WFCFW082_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SC0WFCFW081",
+        "SC0WFCFW082"
+      ],
+      "colorVariantCodes": [
+        "BLK",
+        "DKTP"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -526,7 +689,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SC0WFCFW082_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SC0WFCFW082_9.jpg?v=250904"
       ],
-      "titleEn": "EASY GOING (SLIP INS)"
+      "titleEn": "EASY GOING (SLIP INS)",
+      "colorCode": "DKTP"
     },
     {
       "productId": "SC0WFCFW081",
@@ -551,6 +715,18 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SC0WFCFW081_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SC0WFCFW082_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SC0WFCFW081",
+        "SC0WFCFW082"
+      ],
+      "colorVariantCodes": [
+        "BLK",
+        "DKTP"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -570,7 +746,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SC0WFCFW081_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SC0WFCFW081_9.jpg?v=250904"
       ],
-      "titleEn": "EASY GOING (SLIP INS)"
+      "titleEn": "EASY GOING (SLIP INS)",
+      "colorCode": "BLK"
     },
     {
       "productId": "SL0WSCFW081",
@@ -594,6 +771,21 @@
         250
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW082_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW083_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW084_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW081_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0WSCFW082",
+        "SL0WSCFW083",
+        "SL0WSCFW084",
+        "SL0WSCFW081"
+      ],
+      "colorVariantCodes": [
+        "BLK"
+      ],
       "reviewRating": 5,
       "reviewCount": 1,
       "isSoldOut": false,
@@ -613,7 +805,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW081_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW081_9.jpg?v=250904"
       ],
-      "titleEn": "COZY UP"
+      "titleEn": "COZY UP",
+      "colorCode": "BLK"
     },
     {
       "productId": "SP0WSCFW023",
@@ -638,6 +831,21 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW021_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW022_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW023_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0WSCFW021",
+        "SP0WSCFW022",
+        "SP0WSCFW023"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "CHOC",
+        "PLUM"
+      ],
       "reviewRating": 4,
       "reviewCount": 1,
       "isSoldOut": false,
@@ -657,7 +865,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW023_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW023_9.jpg?v=250904"
       ],
-      "titleEn": "GW ARCH FIT 2.0 BOOT(SLIP INS)"
+      "titleEn": "GW ARCH FIT 2.0 BOOT(SLIP INS)",
+      "colorCode": "PLUM"
     },
     {
       "productId": "SP0WSCFW022",
@@ -682,6 +891,21 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW021_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW022_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW023_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0WSCFW021",
+        "SP0WSCFW022",
+        "SP0WSCFW023"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "CHOC",
+        "PLUM"
+      ],
       "reviewRating": 4,
       "reviewCount": 1,
       "isSoldOut": false,
@@ -701,7 +925,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW022_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW022_9.jpg?v=250904"
       ],
-      "titleEn": "GW ARCH FIT 2.0 BOOT(SLIP INS)"
+      "titleEn": "GW ARCH FIT 2.0 BOOT(SLIP INS)",
+      "colorCode": "CHOC"
     },
     {
       "productId": "SP0WSCFW021",
@@ -726,6 +951,21 @@
         260
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW021_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW022_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW023_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0WSCFW021",
+        "SP0WSCFW022",
+        "SP0WSCFW023"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "CHOC",
+        "PLUM"
+      ],
       "reviewRating": 4,
       "reviewCount": 1,
       "isSoldOut": false,
@@ -745,7 +985,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW021_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0WSCFW021_9.jpg?v=250904"
       ],
-      "titleEn": "GW ARCH FIT 2.0 BOOT(SLIP INS)"
+      "titleEn": "GW ARCH FIT 2.0 BOOT(SLIP INS)",
+      "colorCode": "BBK"
     },
     {
       "productId": "SL0WSCFW092",
@@ -771,8 +1012,23 @@
         250
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW091_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW092_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW093_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0WSCFW091",
+        "SL0WSCFW092",
+        "SL0WSCFW093"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "CHOC",
+        "MVE"
+      ],
       "reviewRating": 4.5,
-      "reviewCount": 4,
+      "reviewCount": 6,
       "isSoldOut": false,
       "priceBefore": 99000,
       "saleRate": 10,
@@ -790,7 +1046,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW092_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW092_9.jpg?v=250904"
       ],
-      "titleEn": "KEEP COZY"
+      "titleEn": "KEEP COZY",
+      "colorCode": "CHOC"
     },
     {
       "productId": "SL0WSCFW091",
@@ -816,8 +1073,23 @@
         250
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW091_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW092_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW093_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0WSCFW091",
+        "SL0WSCFW092",
+        "SL0WSCFW093"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "CHOC",
+        "MVE"
+      ],
       "reviewRating": 4.5,
-      "reviewCount": 4,
+      "reviewCount": 6,
       "isSoldOut": false,
       "priceBefore": 99000,
       "saleRate": 10,
@@ -835,7 +1107,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW091_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0WSCFW091_9.jpg?v=250904"
       ],
-      "titleEn": "KEEP COZY"
+      "titleEn": "KEEP COZY",
+      "colorCode": "BBK"
     },
     {
       "productId": "SL0MSCFW021",
@@ -860,8 +1133,17 @@
         290
       ],
       "disabledSizes": [],
-      "reviewRating": 0,
-      "reviewCount": 0,
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MSCFW021_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0MSCFW021"
+      ],
+      "colorVariantCodes": [
+        "CHBK"
+      ],
+      "reviewRating": 5,
+      "reviewCount": 1,
       "isSoldOut": false,
       "priceBefore": 179000,
       "saleRate": 0,
@@ -879,7 +1161,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MSCFW021_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MSCFW021_9.jpg?v=250904"
       ],
-      "titleEn": "RESPECTED BOOT (SLIP INS)"
+      "titleEn": "RESPECTED BOOT (SLIP INS)",
+      "colorCode": "CHBK"
     },
     {
       "productId": "SL0MSCFW012",
@@ -905,6 +1188,18 @@
         300
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MSCFW011_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MSCFW012_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0MSCFW011",
+        "SL0MSCFW012"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "NVBK"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -924,7 +1219,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MSCFW012_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MSCFW012_9.jpg?v=250904"
       ],
-      "titleEn": "DLUX JOURNEY (SLIP INS)"
+      "titleEn": "DLUX JOURNEY (SLIP INS)",
+      "colorCode": "NVBK"
     },
     {
       "productId": "SL0MSCFW011",
@@ -952,6 +1248,18 @@
         320
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MSCFW011_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MSCFW012_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0MSCFW011",
+        "SL0MSCFW012"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "NVBK"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -971,7 +1279,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MSCFW011_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MSCFW011_9.jpg?v=250904"
       ],
-      "titleEn": "DLUX JOURNEY (SLIP INS)"
+      "titleEn": "DLUX JOURNEY (SLIP INS)",
+      "colorCode": "BBK"
     },
     {
       "productId": "SC0MFCFW012",
@@ -997,6 +1306,18 @@
         300
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SC0MFCFW011_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SC0MFCFW012_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SC0MFCFW011",
+        "SC0MFCFW012"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "TAN"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 2,
       "isSoldOut": false,
@@ -1016,7 +1337,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SC0MFCFW012_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SC0MFCFW012_9.jpg?v=250904"
       ],
-      "titleEn": "MURETTE (SLIP INS)"
+      "titleEn": "MURETTE (SLIP INS)",
+      "colorCode": "TAN"
     },
     {
       "productId": "SC0MFCFW011",
@@ -1042,6 +1364,18 @@
         300
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SC0MFCFW011_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SC0MFCFW012_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SC0MFCFW011",
+        "SC0MFCFW012"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "TAN"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 2,
       "isSoldOut": false,
@@ -1061,7 +1395,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SC0MFCFW011_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SC0MFCFW011_9.jpg?v=250904"
       ],
-      "titleEn": "MURETTE (SLIP INS)"
+      "titleEn": "MURETTE (SLIP INS)",
+      "colorCode": "BBK"
     },
     {
       "productId": "SP0MRCFY032.jpg?v=250904",
@@ -1085,8 +1420,20 @@
         280
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY031_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY032.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0MRCFY031",
+        "SP0MRCFY032.jpg?v=250904"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "NVYL"
+      ],
       "reviewRating": 5,
-      "reviewCount": 7,
+      "reviewCount": 8,
       "isSoldOut": false,
       "priceBefore": 179000,
       "saleRate": 0,
@@ -1105,7 +1452,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY032_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY032_9.jpg?v=250904"
       ],
-      "titleEn": "MC PREMIER 2.0 (WIDE SLIP INS)"
+      "titleEn": "MC PREMIER 2.0 (WIDE SLIP INS)",
+      "colorCode": "NVYL"
     },
     {
       "productId": "SP0MRCFY031",
@@ -1117,7 +1465,8 @@
         "179,000"
       ],
       "badges": [
-        "NEW"
+        "NEW",
+        "BEST"
       ],
       "sizes": [
         250,
@@ -1133,13 +1482,25 @@
       "disabledSizes": [
         300
       ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY031_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY032.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0MRCFY031",
+        "SP0MRCFY032.jpg?v=250904"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "NVYL"
+      ],
       "reviewRating": 5,
-      "reviewCount": 7,
+      "reviewCount": 8,
       "isSoldOut": false,
       "priceBefore": 179000,
       "saleRate": 0,
       "isNew": true,
-      "isBest": false,
+      "isBest": true,
       "category": "men",
       "thumbs": [
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY031_1.jpg?v=250904",
@@ -1152,7 +1513,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY031_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY031_9.jpg?v=250904"
       ],
-      "titleEn": "MC PREMIER 2.0 (WIDE SLIP INS)"
+      "titleEn": "MC PREMIER 2.0 (WIDE SLIP INS)",
+      "colorCode": "BBK"
     },
     {
       "productId": "SP0MWCFY253",
@@ -1178,8 +1540,23 @@
         280
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY251_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY252_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY254_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY253_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0MWCFY251",
+        "SP0MWCFY252",
+        "SP0MWCFY254",
+        "SP0MWCFY253"
+      ],
+      "colorVariantCodes": [
+        "OFWT"
+      ],
       "reviewRating": 4.5,
-      "reviewCount": 11,
+      "reviewCount": 12,
       "isSoldOut": false,
       "priceBefore": 129000,
       "saleRate": 23,
@@ -1197,7 +1574,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY253_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY253_9.jpg?v=250904"
       ],
-      "titleEn": "GO WALK NOW (SLIP INS)"
+      "titleEn": "GO WALK NOW (SLIP INS)",
+      "colorCode": "OFWT"
     },
     {
       "productId": "SP0MWCFY093.jpg?v=250904",
@@ -1223,8 +1601,23 @@
         300
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY091_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY092_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY093.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0MWCFY091",
+        "SP0MWCFY092",
+        "SP0MWCFY093.jpg?v=250904"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "CHOC",
+        "CSNT"
+      ],
       "reviewRating": 4.5,
-      "reviewCount": 6,
+      "reviewCount": 7,
       "isSoldOut": false,
       "priceBefore": 149000,
       "saleRate": 0,
@@ -1243,7 +1636,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY093_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY093_9.jpg?v=250904"
       ],
-      "titleEn": "GW STABILITY 2.0 (SLIP INS)"
+      "titleEn": "GW STABILITY 2.0 (SLIP INS)",
+      "colorCode": "CSNT"
     },
     {
       "productId": "SP0MWCFY092",
@@ -1270,8 +1664,23 @@
         310
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY091_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY092_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY093.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0MWCFY091",
+        "SP0MWCFY092",
+        "SP0MWCFY093.jpg?v=250904"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "CHOC",
+        "CSNT"
+      ],
       "reviewRating": 4.5,
-      "reviewCount": 6,
+      "reviewCount": 7,
       "isSoldOut": false,
       "priceBefore": 149000,
       "saleRate": 0,
@@ -1289,7 +1698,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY092_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY092_9.jpg?v=250904"
       ],
-      "titleEn": "GW STABILITY 2.0 (SLIP INS)"
+      "titleEn": "GW STABILITY 2.0 (SLIP INS)",
+      "colorCode": "CHOC"
     },
     {
       "productId": "SP0MWCFY091",
@@ -1319,8 +1729,23 @@
       "disabledSizes": [
         310
       ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY091_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY092_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY093.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0MWCFY091",
+        "SP0MWCFY092",
+        "SP0MWCFY093.jpg?v=250904"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "CHOC",
+        "CSNT"
+      ],
       "reviewRating": 4.5,
-      "reviewCount": 6,
+      "reviewCount": 7,
       "isSoldOut": false,
       "priceBefore": 149000,
       "saleRate": 0,
@@ -1338,7 +1763,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY091_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY091_9.jpg?v=250904"
       ],
-      "titleEn": "GW STABILITY 2.0 (SLIP INS)"
+      "titleEn": "GW STABILITY 2.0 (SLIP INS)",
+      "colorCode": "BBK"
     },
     {
       "productId": "SP0MRCFY092",
@@ -1366,6 +1792,18 @@
         320
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY091_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY092_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0MRCFY091",
+        "SP0MRCFY092"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "WNV"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 20,
       "isSoldOut": false,
@@ -1385,7 +1823,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY092_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY092_9.jpg?v=250904"
       ],
-      "titleEn": "MAX CUSHIONING ENDEAVOUR"
+      "titleEn": "MAX CUSHIONING ENDEAVOUR",
+      "colorCode": "WNV"
     },
     {
       "productId": "SP0MRCFY091",
@@ -1413,6 +1852,18 @@
         320
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY091_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY092_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0MRCFY091",
+        "SP0MRCFY092"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "WNV"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 20,
       "isSoldOut": false,
@@ -1432,7 +1883,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY091_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MRCFY091_9.jpg?v=250904"
       ],
-      "titleEn": "MAX CUSHIONING ENDEAVOUR"
+      "titleEn": "MAX CUSHIONING ENDEAVOUR",
+      "colorCode": "BBK"
     },
     {
       "productId": "SL0MPCFY233",
@@ -1458,6 +1910,21 @@
         280
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY231_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY232_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY233_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0MPCFY231",
+        "SL0MPCFY232",
+        "SL0MPCFY233"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "BLK",
+        "GRY"
+      ],
       "reviewRating": 5,
       "reviewCount": 2,
       "isSoldOut": false,
@@ -1477,7 +1944,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY233_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY233_9.jpg?v=250904"
       ],
-      "titleEn": "SKECH CLOUD"
+      "titleEn": "SKECH CLOUD",
+      "colorCode": "GRY"
     },
     {
       "productId": "SL0MPCFY232",
@@ -1503,6 +1971,21 @@
         280
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY231_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY232_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY233_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0MPCFY231",
+        "SL0MPCFY232",
+        "SL0MPCFY233"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "BLK",
+        "GRY"
+      ],
       "reviewRating": 5,
       "reviewCount": 2,
       "isSoldOut": false,
@@ -1522,7 +2005,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY232_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY232_9.jpg?v=250904"
       ],
-      "titleEn": "SKECH CLOUD"
+      "titleEn": "SKECH CLOUD",
+      "colorCode": "BLK"
     },
     {
       "productId": "SL0MPCFY231",
@@ -1548,6 +2032,21 @@
         280
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY231_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY232_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY233_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SL0MPCFY231",
+        "SL0MPCFY232",
+        "SL0MPCFY233"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "BLK",
+        "GRY"
+      ],
       "reviewRating": 5,
       "reviewCount": 2,
       "isSoldOut": false,
@@ -1567,7 +2066,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY231_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SL0MPCFY231_9.jpg?v=250904"
       ],
-      "titleEn": "SKECH CLOUD"
+      "titleEn": "SKECH CLOUD",
+      "colorCode": "BBK"
     },
     {
       "productId": "SP0MWCFY032",
@@ -1595,6 +2095,18 @@
       "disabledSizes": [
         300
       ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY031_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY032_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0MWCFY031",
+        "SP0MWCFY032"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "WBK"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 8,
       "isSoldOut": false,
@@ -1614,7 +2126,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY032_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY032_9.jpg?v=250904"
       ],
-      "titleEn": "GO WALK 8 (SLIP INS)"
+      "titleEn": "GO WALK 8 (SLIP INS)",
+      "colorCode": "WBK"
     },
     {
       "productId": "SP0MWCFY031",
@@ -1642,6 +2155,18 @@
         320
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY031_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY032_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0MWCFY031",
+        "SP0MWCFY032"
+      ],
+      "colorVariantCodes": [
+        "BBK",
+        "WBK"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 8,
       "isSoldOut": false,
@@ -1661,7 +2186,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY031_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY031_9.jpg?v=250904"
       ],
-      "titleEn": "GO WALK 8 (SLIP INS)"
+      "titleEn": "GO WALK 8 (SLIP INS)",
+      "colorCode": "BBK"
     },
     {
       "productId": "SP0MWCFY022",
@@ -1690,6 +2216,17 @@
         290,
         300
       ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY021_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY022_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SP0MWCFY021",
+        "SP0MWCFY022"
+      ],
+      "colorVariantCodes": [
+        "DKTP"
+      ],
       "reviewRating": 5,
       "reviewCount": 10,
       "isSoldOut": false,
@@ -1709,7 +2246,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY022_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SP0MWCFY022_9.jpg?v=250904"
       ],
-      "titleEn": "GO WALK 8 (WIDE SLIP INS)"
+      "titleEn": "GO WALK 8 (WIDE SLIP INS)",
+      "colorCode": "DKTP"
     },
     {
       "productId": "SK0BZCFY023",
@@ -1732,6 +2270,19 @@
         250
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCFY023_01.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCFY022_01.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCFY021_01.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0BZCFY023",
+        "SK0BZCFY022",
+        "SK0BZCFY021"
+      ],
+      "colorVariantCodes": [
+        "PKBK"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -1753,7 +2304,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCFY023_10.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCFY023_11.jpg?v=250904"
       ],
-      "titleEn": "SKECHERS SKX 2 JR YOUTH TF"
+      "titleEn": "SKECHERS SKX 2 JR YOUTH TF",
+      "colorCode": "PKBK"
     },
     {
       "productId": "SK0GSCFW021",
@@ -1781,6 +2333,15 @@
         170,
         180
       ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GSCFW021_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GSCFW021"
+      ],
+      "colorVariantCodes": [
+        "NAT"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -1800,7 +2361,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GSCFW021_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GSCFW021_9.jpg?v=250904"
       ],
-      "titleEn": "TURBO TREAD BOOTS"
+      "titleEn": "TURBO TREAD BOOTS",
+      "colorCode": "NAT"
     },
     {
       "productId": "SK0GSCFW011",
@@ -1823,6 +2385,15 @@
       "disabledSizes": [
         130
       ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GSCFW011_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GSCFW011"
+      ],
+      "colorVariantCodes": [
+        "PKMT"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -1842,7 +2413,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GSCFW011_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GSCFW011_9.jpg?v=250904"
       ],
-      "titleEn": "PLAY SCENE BOOTS"
+      "titleEn": "PLAY SCENE BOOTS",
+      "colorCode": "PKMT"
     },
     {
       "productId": "SK0BSCFW021",
@@ -1870,6 +2442,15 @@
         170,
         180
       ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BSCFW021_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0BSCFW021"
+      ],
+      "colorVariantCodes": [
+        "BBK"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -1889,7 +2470,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BSCFW021_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BSCFW021_9.jpg?v=250904"
       ],
-      "titleEn": "TURBO TREAD BOOTS"
+      "titleEn": "TURBO TREAD BOOTS",
+      "colorCode": "BBK"
     },
     {
       "productId": "SK0BSCFW011",
@@ -1912,6 +2494,15 @@
       "disabledSizes": [
         130
       ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BSCFW011_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0BSCFW011"
+      ],
+      "colorVariantCodes": [
+        "BKMT"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -1931,7 +2522,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BSCFW011_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BSCFW011_9.jpg?v=250904"
       ],
-      "titleEn": "PLAY SCENE BOOTS"
+      "titleEn": "PLAY SCENE BOOTS",
+      "colorCode": "BKMT"
     },
     {
       "productId": "SK0GDCFY092",
@@ -1954,6 +2546,18 @@
         240
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY091_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY092_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GDCFY091",
+        "SK0GDCFY092"
+      ],
+      "colorVariantCodes": [
+        "WHT",
+        "SIL"
+      ],
       "reviewRating": 5,
       "reviewCount": 4,
       "isSoldOut": false,
@@ -1973,7 +2577,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY092_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY092_9.jpg?v=250904"
       ],
-      "titleEn": "COURT HI-AIR"
+      "titleEn": "COURT HI-AIR",
+      "colorCode": "SIL"
     },
     {
       "productId": "SK0GDCFY091",
@@ -1997,6 +2602,18 @@
       "disabledSizes": [
         200
       ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY091_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY092_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GDCFY091",
+        "SK0GDCFY092"
+      ],
+      "colorVariantCodes": [
+        "WHT",
+        "SIL"
+      ],
       "reviewRating": 5,
       "reviewCount": 4,
       "isSoldOut": false,
@@ -2016,7 +2633,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY091_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY091_9.jpg?v=250904"
       ],
-      "titleEn": "COURT HI-AIR"
+      "titleEn": "COURT HI-AIR",
+      "colorCode": "WHT"
     },
     {
       "productId": "SK0BDCFY061",
@@ -2037,6 +2655,15 @@
         240
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BDCFY061_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0BDCFY061"
+      ],
+      "colorVariantCodes": [
+        "WHT"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -2056,7 +2683,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BDCFY061_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BDCFY061_9.jpg?v=250904"
       ],
-      "titleEn": "DLITES"
+      "titleEn": "DLITES",
+      "colorCode": "WHT"
     },
     {
       "productId": "SK0GLCFY031.gif?v=250904",
@@ -2074,7 +2702,19 @@
         160
       ],
       "disabledSizes": [
+        140,
         150
+      ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GLCFY031.gif?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GLCFX041_00.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GLCFY031.gif?v=250904",
+        "SK0GLCFX041"
+      ],
+      "colorVariantCodes": [
+        "PKMT"
       ],
       "reviewRating": 5,
       "reviewCount": 2,
@@ -2097,7 +2737,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GLCFY031_09.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GLCFY031_10.jpg?v=250904"
       ],
-      "titleEn": "UNICORN CHARMER (SLIP INS)"
+      "titleEn": "UNICORN CHARMER (SLIP INS)",
+      "colorCode": "PKMT"
     },
     {
       "productId": "SK0GDCFY061",
@@ -2118,6 +2759,15 @@
         240
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY061_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GDCFY061"
+      ],
+      "colorVariantCodes": [
+        "NTMT"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -2137,7 +2787,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY061_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY061_9.jpg?v=250904"
       ],
-      "titleEn": "DLITES"
+      "titleEn": "DLITES",
+      "colorCode": "NTMT"
     },
     {
       "productId": "SK0GDCFY052",
@@ -2159,6 +2810,18 @@
         250
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY051_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY052_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GDCFY051",
+        "SK0GDCFY052"
+      ],
+      "colorVariantCodes": [
+        "NAT",
+        "BKPK"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 4,
       "isSoldOut": false,
@@ -2178,7 +2841,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY052_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY052_9.jpg?v=250904"
       ],
-      "titleEn": "TURBO TREAD (SLIP INS)"
+      "titleEn": "TURBO TREAD (SLIP INS)",
+      "colorCode": "BKPK"
     },
     {
       "productId": "SK0GDCFY051",
@@ -2200,6 +2864,18 @@
         250
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY051_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY052_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GDCFY051",
+        "SK0GDCFY052"
+      ],
+      "colorVariantCodes": [
+        "NAT",
+        "BKPK"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 4,
       "isSoldOut": false,
@@ -2219,7 +2895,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY051_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY051_9.jpg?v=250904"
       ],
-      "titleEn": "TURBO TREAD (SLIP INS)"
+      "titleEn": "TURBO TREAD (SLIP INS)",
+      "colorCode": "NAT"
     },
     {
       "productId": "SK0BDCFY041",
@@ -2241,6 +2918,15 @@
         250
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BDCFY041_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0BDCFY041"
+      ],
+      "colorVariantCodes": [
+        "BKCC"
+      ],
       "reviewRating": 5,
       "reviewCount": 3,
       "isSoldOut": false,
@@ -2260,7 +2946,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BDCFY041_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BDCFY041_9.jpg?v=250904"
       ],
-      "titleEn": "TURBO TREAD (SLIP INS)"
+      "titleEn": "TURBO TREAD (SLIP INS)",
+      "colorCode": "BKCC"
     },
     {
       "productId": "SK0GLCFY021.gif?v=250904",
@@ -2281,6 +2968,15 @@
       ],
       "disabledSizes": [
         210
+      ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GLCFY021.gif?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GLCFY021.gif?v=250904"
+      ],
+      "colorVariantCodes": [
+        "SMLT"
       ],
       "reviewRating": 3.5,
       "reviewCount": 8,
@@ -2303,7 +2999,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GLCFY021_09.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GLCFY021_10.jpg?v=250904"
       ],
-      "titleEn": "INFINITE HEART LIGHTS"
+      "titleEn": "INFINITE HEART LIGHTS",
+      "colorCode": "SMLT"
     },
     {
       "productId": "SK0GLCFY011.gif?v=250904",
@@ -2322,6 +3019,15 @@
         160
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GLCFY011.gif?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GLCFY011.gif?v=250904"
+      ],
+      "colorVariantCodes": [
+        "SMLT"
+      ],
       "reviewRating": 5,
       "reviewCount": 1,
       "isSoldOut": false,
@@ -2343,7 +3049,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GLCFY011_09.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GLCFY011_10.jpg?v=250904"
       ],
-      "titleEn": "INFINITE HEART LIGHTS"
+      "titleEn": "INFINITE HEART LIGHTS",
+      "colorCode": "SMLT"
     },
     {
       "productId": "SK0GDCFY032",
@@ -2364,7 +3071,27 @@
         240,
         250
       ],
-      "disabledSizes": [],
+      "disabledSizes": [
+        210
+      ],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY031_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY032_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFX011_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFX012_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFX013_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GDCFY031",
+        "SK0GDCFY032",
+        "SK0GDCFX011",
+        "SK0GDCFX012",
+        "SK0GDCFX013"
+      ],
+      "colorVariantCodes": [
+        "WHT",
+        "BBK"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 3,
       "isSoldOut": false,
@@ -2384,7 +3111,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY032_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY032_9.jpg?v=250904"
       ],
-      "titleEn": "GLIDE-STEP+ (SLIP INS)"
+      "titleEn": "GLIDE-STEP+ (SLIP INS)",
+      "colorCode": "BBK"
     },
     {
       "productId": "SK0GDCFY031",
@@ -2406,6 +3134,24 @@
         250
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY031_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY032_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFX011_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFX012_1.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFX013_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GDCFY031",
+        "SK0GDCFY032",
+        "SK0GDCFX011",
+        "SK0GDCFX012",
+        "SK0GDCFX013"
+      ],
+      "colorVariantCodes": [
+        "WHT",
+        "BBK"
+      ],
       "reviewRating": 4.5,
       "reviewCount": 3,
       "isSoldOut": false,
@@ -2425,7 +3171,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY031_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY031_9.jpg?v=250904"
       ],
-      "titleEn": "GLIDE-STEP+ (SLIP INS)"
+      "titleEn": "GLIDE-STEP+ (SLIP INS)",
+      "colorCode": "WHT"
     },
     {
       "productId": "SK0GDCFY021",
@@ -2447,6 +3194,15 @@
         250
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY021_1.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0GDCFY021"
+      ],
+      "colorVariantCodes": [
+        "NAT"
+      ],
       "reviewRating": 5,
       "reviewCount": 1,
       "isSoldOut": false,
@@ -2466,7 +3222,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY021_8.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0GDCFY021_9.jpg?v=250904"
       ],
-      "titleEn": "GR CONSISTENT 2.0 (SLIP INS)"
+      "titleEn": "GR CONSISTENT 2.0 (SLIP INS)",
+      "colorCode": "NAT"
     },
     {
       "productId": "SK0BZCFY032",
@@ -2484,6 +3241,25 @@
         220
       ],
       "disabledSizes": [],
+      "colorVariantImages": [
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCFY032_01.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCFY031_01.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCFX011_01.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCEY031_01.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCEY032_01.jpg?v=250904",
+        "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCEY033_01.jpg?v=250904"
+      ],
+      "colorVariantIds": [
+        "SK0BZCFY032",
+        "SK0BZCFY031",
+        "SK0BZCFX011",
+        "SK0BZCEY031",
+        "SK0BZCEY032",
+        "SK0BZCEY033"
+      ],
+      "colorVariantCodes": [
+        "BKOR"
+      ],
       "reviewRating": 0,
       "reviewCount": 0,
       "isSoldOut": false,
@@ -2505,7 +3281,8 @@
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCFY032_10.jpg?v=250904",
         "https://cdn.skecherskorea.co.kr/pro_img/SK0BZCFY032_11.jpg?v=250904"
       ],
-      "titleEn": "SKECHERS RAZOR 1.5 JR YOUTH TF"
+      "titleEn": "SKECHERS RAZOR 1.5 JR YOUTH TF",
+      "colorCode": "BKOR"
     }
   ]
 }
